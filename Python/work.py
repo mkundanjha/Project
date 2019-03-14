@@ -6,16 +6,12 @@ import urllib.error
 from bs4 import BeautifulSoup
 import ssl
 
-
-
 # For ignoring SSL certificate errors
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-#Taking input from user
-
-
+# Taking input from user
 while True:
     k=int(input("Search Product using\n 1. url   2.ASIN id \n"))
     if k==1:
