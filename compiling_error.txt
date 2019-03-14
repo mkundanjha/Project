@@ -1,0 +1,8 @@
+D:\Programs\k.c: In function 'main':
+D:\Programs\k.c:3:32: error: expected ';' before '}' token
+   printf("Hello how are you\n")
+                                ^
+                                ;
+D:\Programs\k.c:5:1:
+ }
+ ~                               
