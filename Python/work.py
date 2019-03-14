@@ -5,7 +5,7 @@ import urllib.parse
 import urllib.error
 from bs4 import BeautifulSoup
 import ssl
-import json
+
 
 
 # For ignoring SSL certificate errors
