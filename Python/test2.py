@@ -1,4 +1,4 @@
-import nltk
-#from nltk.corpus import stopwords
-set(stopwords.words('english')
-print("hello kundan")
+l=["hello","world","good"]
+
+for i in l:
+    print(i,end=" ")
